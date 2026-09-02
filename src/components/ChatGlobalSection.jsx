@@ -580,7 +580,7 @@ export default function ChatGlobalSection() {
                       </span>
                     </div>
                   </div>
-                ))}
+                )))}
               </div>
             )}
 
