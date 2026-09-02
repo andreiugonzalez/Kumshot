@@ -1,14 +1,18 @@
 import Hero from './components/Hero'
 import AboutSection from './components/AboutSection'
 import ContentSection from './components/ContentSection'
+import ChatGlobalSection from './components/ChatGlobalSection'
 import LinksSection from './components/LinksSection'
 import Navbar from './components/Navbar'
+import BackgroundAudio from './components/BackgroundAudio'
 
 function App() {
   return (
     <div className="min-h-screen bg-black overflow-x-hidden selection:bg-accent selection:text-white">
       {/* Film Grain Overlay */}
       <div className="film-grain"></div>
+
+      <BackgroundAudio />
 
       <Navbar />
       
@@ -25,6 +29,8 @@ function App() {
         <AboutSection />
         
         <ContentSection />
+
+        <ChatGlobalSection />
         
         <LinksSection />
       </main>

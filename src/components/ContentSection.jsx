@@ -1,4 +1,4 @@
-import { Play, Link as LinkIcon } from 'lucide-react';
+import { Link as LinkIcon } from 'lucide-react';
 
 export default function ContentSection() {
   return (
@@ -50,10 +50,7 @@ export default function ContentSection() {
               </span>
               <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
             </a>
-            <a href="#" className="flex items-center justify-between text-white hover:text-black hover:bg-accent transition-colors group font-black uppercase tracking-widest text-lg border-2 border-white p-4 brutalist-panel">
-              <span className="flex items-center gap-3"><LinkIcon size={24} /> OTRO ENLACE</span>
-              <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-            </a>
+
           </div>
         </div>
 
